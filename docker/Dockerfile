@@ -16,5 +16,5 @@ RUN export XDG_CONFIG_HOME=/work && \
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash && \
     export NVM_DIR="$XDG_CONFIG_HOME/nvm" && \
     . "$NVM_DIR/nvm.sh" && \
-    nvm install 13.10.1 && \
+    nvm install 17.9.1 && \
     npm install uglify-js -g
